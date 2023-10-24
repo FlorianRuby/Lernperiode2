@@ -16,9 +16,11 @@ In meinem zweiten Projekt möchte ich einen Währungsrechner programmieren, welc
 | Projekt aufsetzen | `Code` | `Output`      |
 
 - [ ] Datenbank in welcher ich Währungen eintragen kann und wie viel ich von dieser habe.
+
 | Vorbereitung             | Eingabe | Erwartete Ausgabe |
 | ------------------------ | ------- | ----------------- |
-| Datenbank | `Währungsname & Menge` | `Währung & Menge ist aufrufbar`      |
+| Datenbank | `Währungsname & Menge` | `Währung & Menge ist aufrufbar`|
+
 Heute habe ich...
 
 ### Arbeitspakete für 27.10.2023
