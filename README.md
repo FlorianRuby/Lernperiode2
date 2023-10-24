@@ -22,7 +22,7 @@ In meinem zweiten Projekt möchte ich einen Währungsrechner programmieren, welc
 | Datenbank | `Währungsname & Menge` | `Währung & Menge ist aufrufbar`|
 
 Heute habe ich alles geschafft was ich mir vorgenommen hatte. Ich konnte das Projekt schnell aufsetzen und konnte mir schon einmal Überlegen wie ich es angehen will. 
-Danach habe ich zwei leeren array erstellt, einen für den Währungsnamen und einen für die Menge. Darauf hin habe ich den Code geschrieben, welcher nach dem Währungsname & der Menge frag. Danach habe ich eine formatiere Ausgabe mithilfe von [Microsoft](https://learn.microsoft.com/de-de/dotnet/api/system.console.writeline?view=net-7.0) erstellt, welche die Währung und auch die Menge der Währung ausgibt, diese sieht so aus: 
+Danach habe ich zwei leeren array erstellt, einen für den Währungsnamen und einen für die Menge. Darauf hin habe ich den Code geschrieben, welcher nach dem Währungsname & der Menge frag. Danach habe ich eine formatiere Ausgabe mithilfe von [Microsoft](https://learn.microsoft.com/de-de/dotnet/api/system.console.writeline?view=net-7.0) erstellt, ich habe auch ChatGPT benutzt da ich nicht mit der Formatierung zufrieden war, da die Menge sich je nach grösse zu weit nach Links verschoben hat. Jetzt kann sich die Menge nur noch nach Rechts verschieben und es sieht nun so aus: 
 --------------------------------------
           Vorhandenen Währungen
 --------------------------------------
