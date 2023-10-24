@@ -24,16 +24,8 @@ In meinem zweiten Projekt möchte ich einen Währungsrechner programmieren, welc
 Heute habe ich alles geschafft was ich mir vorgenommen hatte. 
 Ich konnte das Projekt schnell aufsetzen und konnte mir auch schon einmal überlegen wie ich es angehen will. 
 Danach habe ich zwei leere arrays erstellt, einen für den Währungsnamen und einen für die Menge. Darauf hin habe ich den Code geschrieben, welcher nach dem Währungsname & der Menge fragt. Danach habe ich eine formatiere Ausgabe mithilfe von [Microsoft](https://learn.microsoft.com/de-de/dotnet/api/system.console.writeline?view=net-7.0) erstellt, ich habe auch ChatGPT benutzt da ich nicht mit der Formatierung zufrieden war, da die Menge sich je nach grösse zu weit nach Links verschoben hat. Jetzt kann sich die Menge nur noch nach Rechts verschieben und es sieht nun so aus: 
-```
---------------------------------------
-         Vorhandenen Währungen
---------------------------------------
-Nummer     Währung    Menge
 
-1          eur        1.00
-2          usd        100.00
-3          chf        10,000.00
-4          yen        100,000,000.00
-```
+![image](https://github.com/FlorianRuby/Lernperiode2/assets/142885331/59d9ac3d-d631-4df8-ab70-8483e232a295)
+
 
 ### Arbeitspakete für 27.10.2023
