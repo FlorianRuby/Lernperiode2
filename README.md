@@ -29,3 +29,26 @@ Danach habe ich zwei leere arrays erstellt, einen für den Währungsnamen und ei
 
 
 ### Arbeitspakete für 27.10.2023
+- [ ] richtige API finden & herausfinden wie man diese API benutzt
+      
+| Vorbereitung             | Eingabe | Erwartete Ausgabe |
+| ------------------------ | ------- | ----------------- |
+| API recherche | `nichts (sollte automatisch gehen sobald das Program offen ist)` | `Wechselkurse`      |
+
+- [ ] richtige API finden & herausfinden wie man diese API benutzt
+      
+| Vorbereitung             | Eingabe | Erwartete Ausgabe |
+| ------------------------ | ------- | ----------------- |
+| API recherche | `nichts (sollte automatisch gehen sobald das Program offen ist)` | `Wechselkurse`      |
+
+- [ ] Währungsmenge in CHF rechnen
+
+| Vorbereitung             | Eingabe | Erwartete Ausgabe |
+| ------------------------ | ------- | ----------------- |
+| Datenbank | `Währung & Menge` | `Menge umgerrechnet in CHF`|
+
+- [ ] Währungsmenge wird in CHF angegeben mit Kursveränderung in der letzten Woche
+      
+| Vorbereitung             | Eingabe | Erwartete Ausgabe |
+| ------------------------ | ------- | ----------------- |
+| Datenbank & API | `n bei "Wollen sie noch weitere Währungen eintragen?"` | `Kursveränderungen in der letzten Woche in Prozent`      |
