@@ -73,3 +73,26 @@ Ich konnte heute nicht alles schaffen, ich habe jetzt zwar die API und kann Wech
 | Vorbereitung             | Eingabe | Erwartete Ausgabe |
 | ------------------------ | ------- | ----------------- |
 | Datei | `nichts, sollte automatisch am Anfang und am Ende passieren` | `derzeitiger Wert des Portfolios`      |
+
+Heute habe ich nicht an meinem Projekt weiter gearbeitet sondern an dem Mahara Portfolio des Modules 319 gearbeitet, da wir dieses am Donnerstag abgeben müssen. 
+Ich habe Beiträge zu den Themen Konventionen, Programmierfehler, Funktionen und zu dem Compiler gemacht. Ich bin jetzt eigentlich fast fertig mit dem Portfoliobeitrag und muss den Rest noch in meiner Freizeit machen, was aber nicht viel ist. Ich werde die Arbeitsmodule von dieser Woche einfach auf dei nächste verlegen.
+
+### Arbeitspakete für 14.10.2023
+
+- [ ] Währungsmenge in CHF rechnen
+
+| Vorbereitung             | Eingabe | Erwartete Ausgabe |
+| ------------------------ | ------- | ----------------- |
+| Datei | `Währung & Menge` | `Menge umgerrechnet in CHF`|
+
+- [ ] Währungsmenge wird in CHF angegeben mit Kursveränderung in der letzten Woche
+      
+| Vorbereitung             | Eingabe | Erwartete Ausgabe |
+| ------------------------ | ------- | ----------------- |
+| Datei & API | `n bei "Wollen sie noch weitere Währungen eintragen?"` | `Kursveränderungen in der letzten Woche in Prozent`      |
+
+- [ ] Währungsmenge etc in einer Datei speichern und dann diese wieder auslesen
+      
+| Vorbereitung             | Eingabe | Erwartete Ausgabe |
+| ------------------------ | ------- | ----------------- |
+| Datei | `nichts, sollte automatisch am Anfang und am Ende passieren` | `derzeitiger Wert des Portfolios`      |
