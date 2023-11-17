@@ -104,16 +104,21 @@ Heute habe ich leider nicht viel geschaft da ich die ganze Sache mit der API noc
 - [ ] Tabelle mit Teilkostenrechnung erstellen 
 | Vorbereitung             | Eingabe | Erwartete Ausgabe |
 | ------------------------ | ------- | ----------------- |
-| Datei | `Zahlen für die Rechnung`  | `Tabelle`         |
+| Datei | `Zahlen für die Rechnung` | `Tabelle`|
 
 - [ ] Tabelle mit Teilkostenrechnung erstellen 
 | Vorbereitung             | Eingabe | Erwartete Ausgabe |
 | ------------------------ | ------- | ----------------- |
-| Datei | `Zahlen für die Rechnung`  | `Tabelle`         |
+| Datei | `Zahlen für die Rechnung` | `Tabelle`|
 
 - [ ] Tabelle mit Teilkostenrechnung erstellen 
 | Vorbereitung             | Eingabe | Erwartete Ausgabe |
 | ------------------------ | ------- | ----------------- |
-| Datei | `Zahlen für die Rechnung`  | `Tabelle`         |
+| Datei | `Zahlen für die Rechnung` | `Tabelle`|
+
+- [ ] Tabelle mit Teilkostenrechnung erstellen 
+| Vorbereitung             | Eingabe | Erwartete Ausgabe |
+| ------------------------ | ------- | ----------------- |
+| Datei | `Zahlen für die Rechnung` | `Tabelle`|
 
 *Wir haben gerade erst angefangen deswegen wissen wir noch nicht richtig was wir alles machen müssen, deswegen sind die Arbeitspakete auch so spärrlich.
