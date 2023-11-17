@@ -92,7 +92,7 @@ Ich habe Beiträge zu den Themen Konventionen, Programmierfehler, Funktionen und
 | Datei & API | `n bei "Wollen sie noch weitere Währungen eintragen?"` | `Kursveränderungen in der letzten Woche in Prozent`|
 
 - [ ] Währungsmenge etc in einer Datei speichern und dann diese wieder auslesen
-- [ ] 
+      
 | Vorbereitung             | Eingabe | Erwartete Ausgabe |
 | ------------------------ | ------- | ----------------- |
 | Datei | `nichts, sollte automatisch am Anfang und am Ende passieren` | `derzeitiger Wert des Portfolios`|
