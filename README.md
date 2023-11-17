@@ -89,13 +89,13 @@ Ich habe Beiträge zu den Themen Konventionen, Programmierfehler, Funktionen und
       
 | Vorbereitung             | Eingabe | Erwartete Ausgabe |
 | ------------------------ | ------- | ----------------- |
-| Datei & API | `n bei "Wollen sie noch weitere Währungen eintragen?"` | `Kursveränderungen in der letzten Woche in Prozent`      |
+| Datei & API | `n bei "Wollen sie noch weitere Währungen eintragen?"` | `Kursveränderungen in der letzten Woche in Prozent`|
 
 - [ ] Währungsmenge etc in einer Datei speichern und dann diese wieder auslesen
 - [ ] 
 | Vorbereitung             | Eingabe | Erwartete Ausgabe |
 | ------------------------ | ------- | ----------------- |
-| Datei | `nichts, sollte automatisch am Anfang und am Ende passieren` | `derzeitiger Wert des Portfolios`      |
+| Datei | `nichts, sollte automatisch am Anfang und am Ende passieren` | `derzeitiger Wert des Portfolios`|
 
 Heute habe ich leider nicht viel geschaft da ich die ganze Sache mit der API noch einmal neu machen musste, da mein Login nicht mehr funktionierte und ich so meinen Account bei dem Exchange API Anbieter und bei Postman verloren habe. Danach habe ich probiert die API in Visual Studio zu bekommen was allerdings schwer war da alle Youtube Tutourials nur für VS Code waren und nicht für VS, deswegen habe ich es mit chatGPT probiert aber der dieser einen Wissensstand von 2021 hat wusste er nicht das manche Plugins abgeändert wurden. Nach zwei Stunden habe ich es dann geschaft den API Wert durch das Programm selbst zu bekommen aber dann trat ein neuer Fehler auf: System.ArgumentNullException: 'Value cannot be null. (Parameter 'key')'. Deswegen habe ich mich dazu entschieden dieses Programm in meiner Freizeit fertig zu schreiben oder zumindestens versuchen zu verstehen wie APIs funktionieren. Nächste Woche werde ich also mit Herr Paucar und Herr Muic zusammen an unserem Kanti Programmierprojekt arbeiten?
 
@@ -104,16 +104,16 @@ Heute habe ich leider nicht viel geschaft da ich die ganze Sache mit der API noc
 - [ ] Tabelle mit Teilkostenrechnung erstellen 
 | Vorbereitung             | Eingabe | Erwartete Ausgabe |
 | ------------------------ | ------- | ----------------- |
-| Datei | `Zahlen für die Rechnung` | `Tabelle`|
+| Datei | `Zahlen für die Rechnung`  | `Tabelle`         |
 
 - [ ] Tabelle mit Teilkostenrechnung erstellen 
 | Vorbereitung             | Eingabe | Erwartete Ausgabe |
 | ------------------------ | ------- | ----------------- |
-| Datei | `Zahlen für die Rechnung` | `Tabelle`|
+| Datei | `Zahlen für die Rechnung`  | `Tabelle`         |
 
 - [ ] Tabelle mit Teilkostenrechnung erstellen 
 | Vorbereitung             | Eingabe | Erwartete Ausgabe |
 | ------------------------ | ------- | ----------------- |
-| Datei | `Zahlen für die Rechnung` | `Tabelle`|
+| Datei | `Zahlen für die Rechnung`  | `Tabelle`         |
 
 *Wir haben gerade erst angefangen deswegen wissen wir noch nicht richtig was wir alles machen müssen, deswegen sind die Arbeitspakete auch so spärrlich.
