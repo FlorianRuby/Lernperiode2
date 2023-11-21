@@ -122,3 +122,22 @@ Heute habe ich leider nicht viel geschaft da ich die ganze Sache mit der API noc
 | Datei | `Zahlen für die Rechnung` | `Tabelle`|
 
 *Wir haben gerade erst angefangen deswegen wissen wir noch nicht richtig was wir alles machen müssen, deswegen sind die Arbeitspakete auch so spärrlich.
+Heute haben wir an dem Programmierprojekt der Kanti Lehrpersonen weitergearbeitet, wir haben heute an der Plannung gearbeitet, einen PAP erstellt etc. Wir haben auch mit dem Code angefangen und die Anfrage nach den verschiedenen Daten, die wir später brauchen erstellt. Hier ist ein Code Beispiel: 
+![image](https://github.com/FlorianRuby/Lernperiode2/assets/142885331/a5f24252-bf1f-42c6-a0ef-8e2b081dc187)
+
+### Arbeitspakete für 28.10.2023
+
+- [ ] Code schreiben der eine Tabelle erstellt
+| Vorbereitung             | Eingabe | Erwartete Ausgabe |
+| ------------------------ | ------- | ----------------- |
+| Code | `Zahlen wie Nettoerlös` | `Tabelle`|
+
+- [ ] Code schreiben der eine Tabelle erstellt
+| Vorbereitung             | Eingabe | Erwartete Ausgabe |
+| ------------------------ | ------- | ----------------- |
+| Code | `Zahlen wie Nettoerlös` | `Tabelle`|
+
+- [ ] Code schreiben der eine Tabelle erstellt
+| Vorbereitung             | Eingabe | Erwartete Ausgabe |
+| ------------------------ | ------- | ----------------- |
+| Code | `Zahlen wie Nettoerlös` | `Tabelle`|
