@@ -54,7 +54,7 @@ Danach habe ich zwei leere arrays erstellt, einen für den Währungsnamen und ei
 
 Ich konnte heute nicht alles schaffen, ich habe jetzt zwar die API und kann Wechselkurse aufrufen, aber ich kann diese noch nicht automatisch in Visual Studio abrufen, ich muss zuerst diese selbst herüberkopieren. Deswegen bin ich auch nach der API Aufgabe stecken geblieben und habe den Rest nicht geschaft. Sobald ich diese Hürde überwältigt habe sollte es aber schnell gehen da diese Aufgaben nicht lange dauern.
 
-### Arbeitspakete für 07.10.2023
+### Arbeitspakete für 07.11.2023
 
 - [ ] Währungsmenge in CHF rechnen
 
@@ -77,7 +77,7 @@ Ich konnte heute nicht alles schaffen, ich habe jetzt zwar die API und kann Wech
 Heute habe ich nicht an meinem Projekt weiter gearbeitet sondern an dem Mahara Portfolio des Modules 319 gearbeitet, da wir dieses am Donnerstag abgeben müssen. 
 Ich habe Beiträge zu den Themen Konventionen, Programmierfehler, Funktionen und zu dem Compiler gemacht. Ich bin jetzt eigentlich fast fertig mit dem Portfoliobeitrag und muss den Rest noch in meiner Freizeit machen, was aber nicht viel ist. Ich werde die Arbeitsmodule von dieser Woche einfach auf dei nächste verlegen.
 
-### Arbeitspakete für 14.10.2023
+### Arbeitspakete für 14.11.2023
 
 - [ ] Währungsmenge in CHF rechnen
 
@@ -99,7 +99,7 @@ Ich habe Beiträge zu den Themen Konventionen, Programmierfehler, Funktionen und
 
 Heute habe ich leider nicht viel geschaft da ich die ganze Sache mit der API noch einmal neu machen musste, da mein Login nicht mehr funktionierte und ich so meinen Account bei dem Exchange API Anbieter und bei Postman verloren habe. Danach habe ich probiert die API in Visual Studio zu bekommen was allerdings schwer war da alle Youtube Tutourials nur für VS Code waren und nicht für VS, deswegen habe ich es mit chatGPT probiert aber der dieser einen Wissensstand von 2021 hat wusste er nicht das manche Plugins abgeändert wurden. Nach zwei Stunden habe ich es dann geschaft den API Wert durch das Programm selbst zu bekommen aber dann trat ein neuer Fehler auf: System.ArgumentNullException: 'Value cannot be null. (Parameter 'key')'. Deswegen habe ich mich dazu entschieden dieses Programm in meiner Freizeit fertig zu schreiben oder zumindestens versuchen zu verstehen wie APIs funktionieren. Nächste Woche werde ich also mit Herr Paucar und Herr Muic zusammen an unserem Kanti Programmierprojekt arbeiten?
 
-### Arbeitspakete für 21.10.2023
+### Arbeitspakete für 21.11.2023
 
 - [ ] Tabelle mit Teilkostenrechnung erstellen 
 | Vorbereitung             | Eingabe | Erwartete Ausgabe |
@@ -125,7 +125,7 @@ Heute habe ich leider nicht viel geschaft da ich die ganze Sache mit der API noc
 Heute haben wir an dem Programmierprojekt der Kanti Lehrpersonen weitergearbeitet, wir haben heute an der Plannung gearbeitet, einen PAP erstellt etc. Wir haben auch mit dem Code angefangen und die Anfrage nach den verschiedenen Daten, die wir später brauchen erstellt. Hier ist ein Code Beispiel: 
 ![image](https://github.com/FlorianRuby/Lernperiode2/assets/142885331/a5f24252-bf1f-42c6-a0ef-8e2b081dc187)
 
-### Arbeitspakete für 28.10.2023
+### Arbeitspakete für 28.11.2023
 
 - [ ] Code schreiben der eine Tabelle erstellt
 | Vorbereitung             | Eingabe | Erwartete Ausgabe |
