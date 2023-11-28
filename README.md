@@ -148,6 +148,7 @@ Heute haben wir an dem Programmierprojekt der Kanti Lehrpersonen weitergearbeite
 | Vorbereitung             | Eingabe | Erwartete Ausgabe |
 | ------------------------ | ------- | ----------------- |
 | Code | `Zahlen wie Nettoerlös` | `Tabelle`|
+
 Wir haben am Projekt weiter am Projekt gearbeitet und sind sehr gut weit vorangekommen, wir haben an der Ausgabe der Tabelle mithilfe von der Console gearbeitet und sind da schon fast fertig. Das einzige was wir noch machen müssen ist das wir die Ausgabe jetzt noch formatieren müssen, da sie gerade sehr komisch aussieht.
 
 ### Arbeitspakete für 05.12.2023
