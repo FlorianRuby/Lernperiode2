@@ -101,22 +101,26 @@ Heute habe ich leider nicht viel geschaft da ich die ganze Sache mit der API noc
 
 ### Arbeitspakete für 21.11.2023
 
-- [ ] Tabelle mit Teilkostenrechnung erstellen 
+- [x] Tabelle mit Teilkostenrechnung erstellen
+      
 | Vorbereitung             | Eingabe | Erwartete Ausgabe |
 | ------------------------ | ------- | ----------------- |
 | Datei | `Zahlen für die Rechnung` | `Tabelle`|
 
-- [ ] Tabelle mit Teilkostenrechnung erstellen 
+- [x] Tabelle mit Teilkostenrechnung erstellen
+      
 | Vorbereitung             | Eingabe | Erwartete Ausgabe |
 | ------------------------ | ------- | ----------------- |
 | Datei | `Zahlen für die Rechnung` | `Tabelle`|
 
-- [ ] Tabelle mit Teilkostenrechnung erstellen 
+- [x] Tabelle mit Teilkostenrechnung erstellen
+      
 | Vorbereitung             | Eingabe | Erwartete Ausgabe |
 | ------------------------ | ------- | ----------------- |
 | Datei | `Zahlen für die Rechnung` | `Tabelle`|
 
-- [ ] Tabelle mit Teilkostenrechnung erstellen 
+- [x] Tabelle mit Teilkostenrechnung erstellen
+      
 | Vorbereitung             | Eingabe | Erwartete Ausgabe |
 | ------------------------ | ------- | ----------------- |
 | Datei | `Zahlen für die Rechnung` | `Tabelle`|
@@ -127,17 +131,41 @@ Heute haben wir an dem Programmierprojekt der Kanti Lehrpersonen weitergearbeite
 
 ### Arbeitspakete für 28.11.2023
 
-- [ ] Code schreiben der eine Tabelle erstellt
+- [x] Code schreiben der eine Tabelle erstellt
+
 | Vorbereitung             | Eingabe | Erwartete Ausgabe |
 | ------------------------ | ------- | ----------------- |
 | Code | `Zahlen wie Nettoerlös` | `Tabelle`|
 
-- [ ] Code schreiben der eine Tabelle erstellt
+- [x] Code schreiben der eine Tabelle erstellt
+      
 | Vorbereitung             | Eingabe | Erwartete Ausgabe |
 | ------------------------ | ------- | ----------------- |
 | Code | `Zahlen wie Nettoerlös` | `Tabelle`|
 
-- [ ] Code schreiben der eine Tabelle erstellt
+- [x] Code schreiben der eine Tabelle erstellt
+      
 | Vorbereitung             | Eingabe | Erwartete Ausgabe |
 | ------------------------ | ------- | ----------------- |
 | Code | `Zahlen wie Nettoerlös` | `Tabelle`|
+Wir haben am Projekt weiter am Projekt gearbeitet und sind sehr gut weit vorangekommen, wir haben an der Ausgabe der Tabelle mithilfe von der Console gearbeitet und sind da schon fast fertig. Das einzige was wir noch machen müssen ist das wir die Ausgabe jetzt noch formatieren müssen, da sie gerade sehr komisch aussieht.
+
+### Arbeitspakete für 05.12.2023
+
+- [ ] Ausgabe formatieren
+      
+| Vorbereitung             | Eingabe | Erwartete Ausgabe |
+| ------------------------ | ------- | ----------------- |
+| Formatierungscode code | `Werte` | `Formatierte Tabelle`      |
+
+- [ ] Ausgabe formatieren
+      
+| Vorbereitung             | Eingabe | Erwartete Ausgabe |
+| ------------------------ | ------- | ----------------- |
+| Formatierungscode code | `Werte` | `Formatierte Tabelle`      |
+
+- [ ] Dokumentation nachführen
+      
+
+
+
