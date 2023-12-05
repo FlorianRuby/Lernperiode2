@@ -155,20 +155,25 @@ Heute haben wir an dem Programmierprojekt der Kanti Lehrpersonen weitergearbeite
 
 ### Arbeitspakete für 05.12.2023
 
-- [ ] Ausgabe formatieren
+- [X] Ausgabe formatieren
       
 | Vorbereitung             | Eingabe | Erwartete Ausgabe |
 | ------------------------ | ------- | ----------------- |
 | Formatierungscode code | `Werte` | `Formatierte Tabelle`      |
 
-- [ ] Ausgabe formatieren
+- [X] Ausgabe formatieren
       
 | Vorbereitung             | Eingabe | Erwartete Ausgabe |
 | ------------------------ | ------- | ----------------- |
 | Formatierungscode code | `Werte` | `Formatierte Tabelle`      |
 
-- [ ] Dokumentation nachführen
+- [X] Dokumentation nachführen
       
+Da wir schon am Freitag mit dem Code für das Projekt fertig wurden habe ich heute an meinem Modul 162 Portfolio gearbeitet welches wir am Donnerstag abgeben müssen. Wir müssen in dem Portfolio-Auftrag über Statistiken schreiben, diese anpassen und redundante Werte löschen und schlussendlich diese dann mithilfe von mehreren Diagrammen besser ersichtlich machen.
 
+
+### Arbeitspakete für 12.12.2023
+
+- [ ] AoC
 
 
