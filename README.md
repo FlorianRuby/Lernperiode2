@@ -174,6 +174,8 @@ Da wir schon am Freitag mit dem Code für das Projekt fertig wurden habe ich heu
 
 ### Arbeitspakete für 12.12.2023
 
-- [ ] AoC
+- [ ] Dokumentation schreiben
+
+Heute haben wir die Dokumentation für unser Programmierprojekt angefangen und sind dabei sehr weit gekommen, wir sind zwar nicht fertig aber das können wir noch heute Nachmittag oder morgen machen, da wir es am Mittwoch Abend abgeben müssen.
 
 
