@@ -174,8 +174,52 @@ Da wir schon am Freitag mit dem Code für das Projekt fertig wurden habe ich heu
 
 ### Arbeitspakete für 12.12.2023
 
-- [ ] Dokumentation schreiben
+- [X] Dokumentation schreiben
 
 Heute haben wir die Dokumentation für unser Programmierprojekt angefangen und sind dabei sehr weit gekommen, wir sind zwar nicht fertig aber das können wir noch heute Nachmittag oder morgen machen, da wir es am Mittwoch Abend abgeben müssen.
 
+### Arbeitspakete für 19.12.2023
 
+- [X] Präsentation für die Vorstellung des Programmierprojekts vorbereiten
+
+## Reflexion
+
+1. Ich habe das Währungsrechner Projekt angefangen.
+      -> Ich habe alles vorbereitet *(Abfrage inputs)* sodass ich mit der API Recherche anfangen kann.
+2. Ich habe eine API für das Projekt gesucht.
+      -> Da ich nun eine API gefunden habe konnte ich der implementierung anfangen.
+3. Ich habe an der Implementierung der API gearbeitet.
+      -> Dies ging länger als ich dachte und habe habe ausserdem all meinen Fortschritt in Postman verloren.
+4. Ich habe an der Implementierung der API gearbeitet.
+      -> Ich habe wieder die API implementiert aber kam nicht weiter.
+5. Ich habe zusammen mit Herr Paucar und Herr Muic das Kanti Teilkostenrechnugns Programmierprojekt angefangen.
+      -> Da jetzt das Kanti Projekt angefangen hat haben wir an diesem gearbeitet und dieses geplannt sodass wir in der nächsten Woche mit dem Programmieren anfangen konnten.
+6. Ich habe zusammen mit Herr Paucar und Herr Muic an dem Kanti Teilkostenrechnugns Programmierprojekt weitergearbeitet. *(programmieren)*
+      -> Da jetzt alles fertig geplannt war haben wir angefangen zu programmieren und haben die Input abfrage programmiert.
+7. Ich habe zusammen mit Herr Paucar und Herr Muic an dem Kanti Teilkostenrechnugns Programmierprojekt weitergearbeitet. _(programmieren)_
+      -> Da wir jetzt die Inputs hatten konnten wir mit dem erstellen und errechnen der Tabellenwerte anfangen. Das haben wir auch geschaft, deswegen konnten wir am gleichen Tag auch noch mit der Formatiertung der Tabelle anfangen und haben dies auch geschaft.
+8. Ich habe das Portfolio für das Modul 162 geschrieben
+      -> Da wir mit dem Code fertig waren konnte ich anstatt am Projekt zu arbeiten an dem Portfolio Auftrag des Modules 162 arbeiten, welches wir am Donnerstag in der gleichen Woch abgeben sollten. 
+9. Ich habe zusammen mit Herr Paucar und Herr Muic an dem Kanti Teilkostenrechnugns Programmierprojekt weitergearbeitet. _(Präsentation)_
+      -> Da wir mit dem Programmierteil des Projektes fertig waren mussten wir nur noch die Vorstellung an der Kanti vorbereiten.
+
+### Wichtigsten Erfolge, Ereignisse & Meilensteine
+#### Erfolge
+1. gute API gefunden
+2. Herausgefunden wir man eine Tabelle in der Console richtig formatieren kann (mit mixxed array)
+
+#### Ereignisse 
+1. Projekt wechsel zu Kanti Projekt
+2. kurzer Projekt welchsel zu dem M162 Portfolio
+
+#### Meilensteine
+1. API implementierung in VS
+2. Formatierte Tabelle
+3. Portfolio abgeschlossen
+4. Dokumentation & Präsentation abgeschlossen
+
+### Reflexion Text
+In den letzten neun Wochen habe ich an drei verschiedenen Projekten gearbeitet. Zunächst habe ich einen Währungsrechner begonnen, dann einen Teilkostenrechner für eine Kantine in einer Gruppenarbeit programmiert und dokumentiert. Abschließend habe ich ein Portfolio für ein Modul erstellt. Ursprünglich plante ich, das Währungsrechner-Projekt in meiner Freizeit fertigzustellen. Aufgrund der Vielzahl von Prüfungen und anderen Verpflichtungen in letzter Zeit habe ich dies jedoch nicht geschafft. Um ehrlich zu sein, habe ich sogar komplett vergessen, dass ich es überhaupt begonnen hatte. Hätte ich es nicht vergessen, hätte ich wahrscheinlich in der achten Woche an meinem ursprünglichen Programmierprojekt gearbeitet, anstatt am Portfolio.
+
+### Verbesserungsvorschläge
+Für die kommende Lernperiode nehme ich mir vor, mich strikt an meinen ursprünglichen Plan zu halten und die Zeit im Lernatelier darauf zu verwenden, mich auf meine Projekte zu konzentrieren. Ich werde diese Zeit nicht mehr für andere Projekte nutzen, die eigentlich nichts mit dem Lernatelier zu tun haben.
