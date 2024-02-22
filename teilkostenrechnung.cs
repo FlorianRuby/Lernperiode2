@@ -1,93 +1,70 @@
-﻿using System;
+using System;
 
 namespace ConsoleApp1
 {
     internal class Program
     {
+        private const string InputErrorMessage = "Fehlerhafte Eingabe. Bitte geben Sie eine gültige Zahl ein.";
+        private const string MengenbereichPrompt = "Geben Sie ihren gewünschten Mengenbereich ein (bei 0 wird ein Standardbereich generiert): ";
+
         static void Main(string[] args)
         {
-            // doubles
-            double fixKosten;
-            double variableKosten;
-            double nettoErlos;
-            int mengenBereich;
-            double[] schritte = new double[75];
-            double gewinnZiel;
+            double fixKosten = PromptForDouble("Geben Sie ihre Fixkosten ein: ");
+            double variableKosten = PromptForDouble("Geben Sie ihre Variablenkosten ein: ");
+            double nettoErlos = PromptForDouble("Geben Sie ihren Nettoerlös pro Produkt ein: ");
+            int mengenBereich = PromptForInt(MengenbereichPrompt);
+            double[] schritte = GenerateSteps(mengenBereich);
+            double gewinnZiel = PromptForDouble("Geben Sie ihr gewünschtes Gewinnziel ein: ");
 
-            // fix/variable/nettoerlos
-            Console.Write("Geben Sie ihre Fixkosten ein: ");
-            while (!double.TryParse(Console.ReadLine(), out fixKosten))
+            object[,] mixedArray = InitializeMixedArray(schritte, nettoErlos, variableKosten, fixKosten, mengenBereich);
+            PrintTable(mixedArray);
+
+            CalculateAndPrintThresholds(fixKosten, variableKosten, nettoErlos, gewinnZiel);
+        }
+
+        private static double PromptForDouble(string message)
+        {
+            Console.Write(message);
+            while (!double.TryParse(Console.ReadLine(), out double value))
             {
-                Console.WriteLine("Fehlerhafte Eingabe. Bitte geben Sie eine gültige Zahl ein.");
-                Console.Write("Geben Sie ihre Fixkosten ein: ");
+                Console.WriteLine(InputErrorMessage);
+                Console.Write(message);
             }
+            return value;
+        }
 
-            Console.Write("Geben Sie ihre Variablenkosten ein: ");
-            while (!double.TryParse(Console.ReadLine(), out variableKosten))
+        private static int PromptForInt(string message)
+        {
+            Console.Write(message);
+            while (!int.TryParse(Console.ReadLine(), out int value))
             {
-                Console.WriteLine("Fehlerhafte Eingabe. Bitte geben Sie eine gültige Zahl ein.");
-                Console.Write("Geben Sie ihre Variablenkosten ein: ");
+                Console.WriteLine(InputErrorMessage);
+                Console.Write(message);
             }
+            return value;
+        }
 
-            Console.Write("Geben Sie ihren Nettoerlös pro Produkt ein: ");
-            while (!double.TryParse(Console.ReadLine(), out nettoErlos))
-            {
-                Console.WriteLine("Fehlerhafte Eingabe. Bitte geben Sie eine gültige Zahl ein.");
-                Console.Write("Geben Sie ihren Nettoerlös pro Produkt ein: ");
-            }
-
-            // mengenbereich/schritte
-            Console.Write("Geben Sie ihren gewünschten Mengenbereich ein (bei 0 wird ein Standardbereich generiert): ");
-            while (!int.TryParse(Console.ReadLine(), out mengenBereich))
-            {
-                Console.WriteLine("Fehlerhafte Eingabe. Bitte geben Sie eine gültige ganze Zahl ein.");
-                Console.Write("Geben Sie ihren gewünschten Mengenbereich ein: ");
-            }
-
-            // Überprüfen, ob keine Mengenbereiche eingegeben wurden
+        private static double[] GenerateSteps(int mengenBereich)
+        {
             if (mengenBereich == 0)
             {
-                // Generiere Standardmengenbereiche
-                int schritteVorher = 3;
-                int schritteNachher = 2;
-                int generierteSchritte = schritteVorher + schritteNachher + 1; // Gerade Zahl
-
-                schritte = new double[generierteSchritte];
-
-                for (int i = -schritteVorher; i <= schritteNachher; i++)
-                {
-                    schritte[schritteVorher + i] = 1.0 * (1.0 - i / 3.0); // Annahme: 1.0 ist die mengenmassige Nutzschwelle
-                }
-
-                mengenBereich = generierteSchritte;
+                return new double[] { 0.67, 0.33, 1.0, 1.33, 1.67 }; // Example of default steps
             }
             else
             {
-                int test2 = 0;
-                while (test2 < mengenBereich)
+                double[] steps = new double[mengenBereich];
+                for (int i = 0; i < mengenBereich; i++)
                 {
-                    int anzeigeZahl = test2 + 1;
-                    Console.Write("Geben Sie Schritt Nummer " + anzeigeZahl + " ein: ");
-                    schritte[test2] = Convert.ToDouble(Console.ReadLine());
-                    test2++;
+                    Console.Write($"Geben Sie Schritt Nummer {i + 1} ein: ");
+                    steps[i] = Convert.ToDouble(Console.ReadLine());
                 }
+                return steps;
             }
+        }
 
-
-            // Rest des Codes bleibt unverändert
-
-            // Gewinnziel
-            Console.Write("Geben Sie ihr gewünschtes Gewinnziel ein: ");
-            while (!double.TryParse(Console.ReadLine(), out gewinnZiel))
-            {
-                Console.WriteLine("Fehlerhafte Eingabe. Bitte geben Sie eine gültige Zahl ein.");
-                Console.Write("Geben Sie ihr gewünschtes Gewinnziel ein: ");
-            }
-
-            // 2D Array definieren (width und height glaube ich)
+        private static object[,] InitializeMixedArray(double[] schritte, double nettoErlos, double variableKosten, double fixKosten, int mengenBereich)
+        {
             object[,] mixedArray = new object[6, mengenBereich + 1];
-
-            // Manuell einzelne Werte einfüllen
             mixedArray[0, 0] = "Anzahl";
             mixedArray[1, 0] = "Nettoerlös";
             mixedArray[2, 0] = "Variable Kosten";
@@ -100,44 +77,41 @@ namespace ConsoleApp1
                 mixedArray[0, i + 1] = schritte[i];
                 mixedArray[1, i + 1] = nettoErlos * schritte[i];
                 mixedArray[2, i + 1] = variableKosten * schritte[i];
-                mixedArray[3, i + 1] = nettoErlos * schritte[i] - (variableKosten * schritte[i]);
+                mixedArray[3, i + 1] = (nettoErlos - variableKosten) * schritte[i];
                 mixedArray[4, i + 1] = fixKosten;
-                mixedArray[5, i + 1] = ((nettoErlos * schritte[i]) - (variableKosten * schritte[i])) - fixKosten;
+                mixedArray[5, i + 1] = (nettoErlos - variableKosten) * schritte[i] - fixKosten;
             }
+            return mixedArray;
+        }
 
-            // Ausgabe Tabelle
-            for (int zeile = 0; zeile < mixedArray.GetLength(0); zeile++)
+        private static void PrintTable(object[,] mixedArray)
+        {
+            for (int row = 0; row < mixedArray.GetLength(0); row++)
             {
-                for (int spalte = 0; spalte < mixedArray.GetLength(1); spalte++)
+                for (int col = 0; col < mixedArray.GetLength(1); col++)
                 {
-                    string cellValue = mixedArray[zeile, spalte]?.ToString() ?? "NULL";
-                    if (double.TryParse(cellValue, out double cellDoubleValue))
-                    {
-                        // Round the double values to the nearest whole number
-                        cellValue = Math.Round(cellDoubleValue).ToString();
-                    }
-                    Console.Write($"{cellValue,15} |"); // Right-align by using positive width value
+                    Console.Write($"{mixedArray[row, col],15} |");
                 }
                 Console.WriteLine();
-
-                // Trennlinie
-                for (int i = 0; i < mixedArray.GetLength(1); i++)
-                {
-                    Console.Write(new string('-', 16) + "+");
-                }
-                Console.WriteLine();
+                PrintSeparator(mixedArray.GetLength(1));
             }
+        }
 
+        private static void PrintSeparator(int length)
+        {
+            Console.WriteLine(new string('-', length * 17));
+        }
+
+        private static void CalculateAndPrintThresholds(double fixKosten, double variableKosten, double nettoErlos, double gewinnZiel)
+        {
             double deckungsBeitrag = nettoErlos - variableKosten;
             double mengenmässigeNutzschwelle = fixKosten / deckungsBeitrag;
             double wertmässigeNutzschwelle = mengenmässigeNutzschwelle * nettoErlos;
-            double notwendigeMengeDefinierterGewinn = (gewinnZiel + fixKosten) / nettoErlos;
+            double notwendigeMengeDefinierterGewinn = (gewinnZiel + fixKosten) / deckungsBeitrag;
 
-            // Ausgabe der berechneten Werte
-            Console.WriteLine("Mengenmässige Nutzschwelle: " + Math.Round(mengenmässigeNutzschwelle));
-            Console.WriteLine("Wertmässige Nutzschwelle: " + Math.Round(wertmässigeNutzschwelle));
-            Console.WriteLine("Notwendige Menge für definierten Gewinn: " + Math.Round(notwendigeMengeDefinierterGewinn));
+            Console.WriteLine($"Mengenmässige Nutzschwelle: {Math.Round(mengenmässigeNutzschwelle)}");
+            Console.WriteLine($"Wertmässige Nutzschwelle: {Math.Round(wertmässigeNutzschwelle)}");
+            Console.WriteLine($"Notwendige Menge für definierten Gewinn: {Math.Round(notwendigeMengeDefinierterGewinn)}");
         }
     }
 }
-
